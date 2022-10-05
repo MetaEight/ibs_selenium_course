@@ -1,0 +1,72 @@
+{
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 1,
+    "unknown" : 0,
+    "total" : 1
+  },
+  "time" : {
+    "minDuration" : 7638,
+    "maxDuration" : 7638,
+    "sumDuration" : 7638,
+    "start" : 1664975584044,
+    "stop" : 1664975591682,
+    "duration" : 7638
+  },
+  "children" : [ {
+    "uid" : "679a4d31260fe6ec",
+    "name" : "Default feature",
+    "time" : {
+      "minDuration" : 7638,
+      "maxDuration" : 7638,
+      "sumDuration" : 7638,
+      "start" : 1664975584044,
+      "stop" : 1664975591682,
+      "duration" : 7638
+    },
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "15b17ccc512ccf58",
+      "name" : "Default story",
+      "time" : {
+        "minDuration" : 7638,
+        "maxDuration" : 7638,
+        "sumDuration" : 7638,
+        "start" : 1664975584044,
+        "stop" : 1664975591682,
+        "duration" : 7638
+      },
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      },
+      "type" : "TestGroupNode",
+      "children" : [ {
+        "uid" : "ddcdcdf5c132ea7b",
+        "name" : "firstTest()",
+        "time" : {
+          "start" : 1664975584044,
+          "stop" : 1664975591682,
+          "duration" : 7638
+        },
+        "status" : "passed",
+        "flaky" : false,
+        "type" : "TestCaseNode"
+      } ]
+    } ]
+  } ]
+}

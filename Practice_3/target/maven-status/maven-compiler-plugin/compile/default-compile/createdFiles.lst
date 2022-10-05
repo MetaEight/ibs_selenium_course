@@ -1,0 +1,11 @@
+project\steps\LoginSteps.class
+project\steps\MainPageSteps.class
+project\pages\MainPage.class
+project\BasePage.class
+project\pages\NewBusinessTripPage.class
+project\properties\TestProperties.class
+project\DriverManager.class
+project\pages\BusinessTripListPage.class
+project\pages\LoginPage.class
+project\steps\BusinessTripListPageSteps.class
+project\steps\NewBusinessTripPageSteps.class
