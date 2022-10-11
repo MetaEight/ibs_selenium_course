@@ -19,8 +19,8 @@ public class DriverManager {
     }
 
     public static void initDriver() {
-        driver = new ChromeDriver();
         System.setProperty(properties.getProperty("WEB_DRIVER"), properties.getProperty("WEB_DRIVER_PATH"));
+        driver = new ChromeDriver();
 
         driver.get(properties.getProperty("HOSTNAME"));
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
